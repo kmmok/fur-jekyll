@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Fur
+title: Bush and Beach Studio
 url: "http://turquoise-rook.cloudvent.net/"
 baseurl:
 google_analytics_key:
@@ -10,15 +10,15 @@ snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5O
 snipcart_currency: "usd"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Fur t-shirt store
+logo: /logo.html
+description: Store selling handmade dried bouquets and other beautiful things
 author:
-  name: fur
-  email: fur@example.com
+  name: Natalie
+  email: 
   twitter: fur # twitter username without the @ symbol
   phone: "+1 23456789"
 social:
-  name: Fur Template
+  name: 
   links:
     - https://github.com/CloudCannon/fur-jekyll-template
 

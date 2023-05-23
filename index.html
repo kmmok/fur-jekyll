@@ -10,14 +10,19 @@ subtitle: Experience the beauty
 			<ul class="product-list">
 				{% for product in site.products %}
 					<li>
-						{% include product-styles.html product=product %}
+						<div class="styles">
+						<a href="{{ product.url }}">
+							<img src="{{ site.baseurl }}/images/products/{{ product.product_image }}">
+						</a>
+						</div>
 						<div class="product-details">
 							<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							<p>${{ product.price }}</p>
+							<p>${{ product.price }}</p><p></p>
 						</div>
+						{{ product.content}}
 					</li>
 				{% endfor %}
 				<li></li>
