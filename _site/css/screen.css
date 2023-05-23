@@ -205,7 +205,7 @@ header a { color: #fff; text-decoration: none; z-index: 1; position: relative; }
 
 header a:hover { text-decoration: none; }
 
-nav { width: 100%; padding: 20px 0 0 0; }
+nav { display: inline-block; vertical-align: top; width: auto; padding: 0; float: right; }
 
 @media (min-width: 850px) { nav { display: inline-block; vertical-align: top; width: auto; padding: 0 0 0 600px; } }
 
